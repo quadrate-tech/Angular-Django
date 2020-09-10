@@ -1,12 +1,10 @@
 from django.db import models
-from django.core.validators import MaxValueValidator, MinValueValidator
-
-
+from django.contrib.auth.models import User
 # Create your models here.
 class ad_type(models.Model):
-    type_id = models.IntegerField(primary_key=True, validators=[MinValueValidator(1), MaxValueValidator(5)])
+    type_id = models.AutoField(primary_key=True)
     type_name = models.CharField(max_length=50)
-    Is_deleted = models.BooleanField()
+    Is_deleted = models.BooleanField(default=False)
 
     def __str__(self):
         return "Ad Type with Id :" + str(self.type_id) + " is added!"
