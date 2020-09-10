@@ -11,3 +11,8 @@ class ad_typeViewSet(viewsets.ModelViewSet):
 class feedbackViewSet(viewsets.ModelViewSet):
     queryset = models.feedback.objects.all()
     serializer_class = serailizers.feedbackSerializer
+
+
+class promoted_ad_detailViewSet(viewsets.ModelViewSet):
+    queryset = models.promoted_ad_detail.objects.all()
+    serializer_class = serailizers.promoted_ad_detailSerializer
