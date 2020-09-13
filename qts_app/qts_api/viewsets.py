@@ -24,3 +24,7 @@ class feedbackViewSet(viewsets.ModelViewSet):
 class districtViewSet(viewsets.ModelViewSet):
     queryset = models.district.objects.all()
     serializer_class = serailizers.districtSerializer
+
+class parentCategoryViewSet(viewsets.ModelViewSet):
+    queryset = models.parent_category.objects.all()
+    serializer_class = serailizers.parent_categorySerializer
