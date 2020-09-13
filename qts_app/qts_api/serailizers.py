@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import ad_type, payment, ad_listing, promotion_package, feedback
+from .models import ad_type, payment, ad_listing, promotion_package, feedback, parent_category
 from .models import district
 
 
@@ -35,4 +35,10 @@ class ad_listingSerializer(serializers.ModelSerializer):
 class districtSerializer(serializers.ModelSerializer):
     class Meta:
         model = district
+        fields = '__all__'
+
+#Parent Category Serializer
+class parent_categorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = parent_category
         fields = '__all__'
