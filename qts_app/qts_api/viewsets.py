@@ -1,8 +1,13 @@
 from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticated
+from rest_framework_simplejwt.authentication import JWTAuthentication
+
 from . import models, serailizers
 
 
 class parent_categoryViewSet(viewsets.ModelViewSet):
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
     queryset = models.parent_category.objects.all()
     serializer_class = serailizers.parent_categorySerializer
 
