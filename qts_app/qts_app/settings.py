@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'qts_api',
     'rest_framework',
+    'rest_framework.authtoken',
     'qts_app'
 ]
 
@@ -40,6 +41,15 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+REST_FRAMEWORK = {
+   'DEFAULT_AUTHENTICATION_CLASSES':[
+       'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+   ],
+    'DEFAULT_PERMISSION_CLASSES':(
+        'rest_framework.permissions.AllowAny',
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly'
+    )
+}
 ROOT_URLCONF = 'qts_app.urls'
 
 TEMPLATES = [

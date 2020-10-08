@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fbf8a4f-c42f-468b-8895-9f0c1dffe283" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qts_app/qts_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qts_app/qts_api/serailizers.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_api/serailizers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qts_app/qts_api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_api/viewsets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qts_app/qts_app/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_app/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qts_app/qts_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_app/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="7fbf8a4f-c42f-468b-8895-9f0c1dffe283" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Create-API-for-parent_category-Model-" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="a8c2dd36-b67d-4753-bd06-e9ccb02d0c59" />
+  <component name="ProjectId" id="1ia5qKCOvbYHf6u3b7ol3k9i3RL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,45 +53,29 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7fbf8a4f-c42f-468b-8895-9f0c1dffe283" name="Default Changelist" comment="" />
-      <created>1600043522401</created>
+      <created>1602133053247</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600043522401</updated>
+      <updated>1602133053247</updated>
+      <workItem from="1602133060599" duration="4390000" />
     </task>
-    <task id="LOCAL-00001" summary="Commit the changes">
-      <created>1600762696987</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600762696987</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit the changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit the changes" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600762698498">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="184" y="27" key="SettingsEditor" timestamp="1602133404291">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="555" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600762698498" />
-    <state x="670" y="119" width="585" height="801" key="find.popup" timestamp="1600785701916">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1602133404291" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1602133117860">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="670" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600785701916" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1602133117860" />
+    <state x="464" y="98" key="git4idea.branch.GitSmartOperationDialog" timestamp="1600927971326">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="464" y="98" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.768@0.0.1366.768" timestamp="1600927971326" />
   </component>
 </project>
