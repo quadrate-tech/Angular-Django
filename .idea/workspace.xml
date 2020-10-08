@@ -4,8 +4,7 @@
     <list default="true" id="7fbf8a4f-c42f-468b-8895-9f0c1dffe283" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qts_app/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qts_app/qts_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_app/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qts_app/qts_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qts_app/qts_api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_api/viewsets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -47,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602133053247</updated>
-      <workItem from="1602133060599" duration="2006000" />
+      <workItem from="1602133060599" duration="2570000" />
     </task>
     <servers />
   </component>
