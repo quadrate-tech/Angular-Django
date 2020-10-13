@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fbf8a4f-c42f-468b-8895-9f0c1dffe283" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qts_app/qts_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/qts_app/qts_app/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="7fbf8a4f-c42f-468b-8895-9f0c1dffe283" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
