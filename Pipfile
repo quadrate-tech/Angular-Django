@@ -6,9 +6,15 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "*"
 admin = "*"
-heroku-django = "*"
+django = "*"
+djangorestframework = "*"
+pyjwt = "*"
+drf-yasg = "*"
+gunicorn = "*"
+psycopg2 = "==2.7.7"
+django-heroku = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.8"
