@@ -87,7 +87,7 @@ class ad_listing(models.Model):
 class image(models.Model):
     image_id = models.BigAutoField(primary_key=True)
     ad_id = models.ForeignKey(ad_listing, on_delete=models.CASCADE)
-    url = models.URLField(default='')
+    url = models.URLField()
     is_deleted = models.BooleanField(default=False)
 
     def __str__(self):

@@ -58,7 +58,7 @@ class districtSerializer(serializers.ModelSerializer):
 class imageSeralizer(serializers.ModelSerializer):
     class Meta:
         model = image
-        fields = '___all__'
+        fields = '__all__'
 
 
 class ad_listingSerializer(serializers.ModelSerializer):
