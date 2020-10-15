@@ -57,6 +57,7 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
+*.sqlite3
 
 # Flask stuff:
 instance/
@@ -136,3 +137,4 @@ cython_debug/
 .idea/workspace.xml
 *.xml
 .idea/workspace.xml
+db.sqlite3

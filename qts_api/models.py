@@ -35,7 +35,7 @@ class parent_category(models.Model):
     is_deleted = models.BooleanField(default=False)
 
     def __str__(self):
-        return "Parent Category with Id :" + str(self.user_id) + " is added!"
+        return "Parent Category with Id :" + str(self.category_id) + " is added!"
 
 
 class sub_category(models.Model):
