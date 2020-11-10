@@ -18,6 +18,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CORS_ALLOWED_ORIGINS = [
+    "https://example.com",
+    "https://sub.example.com",
+    "http://localhost:4200",
+    "http://127.0.0.1:9000"
+]
+
 
 # Application definition
 
@@ -30,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'qts_api',
     'rest_framework',
-    'qts_app'
+    'qts_app',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
@@ -41,6 +49,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'qts_app.urls'
