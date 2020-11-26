@@ -19,10 +19,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
     "http://localhost:4200",
-    "http://127.0.0.1:9000"
+    "https://quadrate-tech.github.io/classifieds-web-interface/",
 ]
 
 
