@@ -20,7 +20,7 @@ ALLOWED_HOSTS = []
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
-    "https://quadrate-tech.github.io/classifieds-web-interface/",
+    "https://quadrate-tech.github.io",
 ]
 
 
