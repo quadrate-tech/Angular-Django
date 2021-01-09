@@ -9,8 +9,9 @@ verify_ssl = true
 admin = "*"
 django = "*"
 djangorestframework = "*"
-pyjwt = "*"
+PyJWT = "*"
 djangorestframework_simplejwt = "*"
+path = 13.1.0
 drf-yasg = "*"
 gunicorn = "*"
 psycopg2 = "==2.7.7"
