@@ -9,7 +9,7 @@ verify_ssl = true
 admin = "*"
 django = "*"
 djangorestframework = "*"
-PyJWT = "*"
+PyJWT = "==1.7.1"
 djangorestframework_simplejwt = "*"
 path = "*"
 drf-yasg = "*"
